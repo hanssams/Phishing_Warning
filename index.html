@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Phishing-Warnung</title>
+<style>
+    body {
+        font-family: Arial, sans-serif;
+        text-align: center;
+        background-color: #cccccc;
+        padding: 0;
+        margin: 0;
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .container {
+        background: white;
+        padding: 40px;
+        border-radius: 10px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        display: inline-block;
+        text-align: center;
+    }
+    img {
+        width: 100px;
+        margin-top: 20px;
+    }
+    button {
+        margin-top: 20px;
+        padding: 10px 20px;
+        background-color: #f44336;
+        color: white;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+    }
+    button:hover {
+        background-color: #d32f2f;
+    }
+</style>
+</head>
+<body>
+<div class="container">
+    <h1>Sie wurden gephisht!</h1>
+    <p>Seien Sie vorsichtig mit Ihren Daten im Internet.</p>
+    <img src="https://www.corsicatech.com/wp-content/uploads/2019/11/phishing_endpage_fail.png" alt="Warnung">
+    <br>
+    <button onclick="window.close()">Schließen</button>
+</div>
+</body>
+</html>
